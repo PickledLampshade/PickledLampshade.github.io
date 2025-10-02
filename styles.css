@@ -1,68 +1,27 @@
-/* Simple, clean styling — not over the top */
-
-:root{
-  --bg: #f7f9fb;
-  --card: #ffffff;
-  --accent: #2b6f77;
-  --muted: #586066;
-  --radius: 8px;
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+  margin: 20px;
 }
 
-/* Reset / base */
-*{box-sizing:border-box}
-html,body{height:100%;margin:0;padding:0;font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;}
-body{
-  background: var(--bg);
-  color: #1f2933;
-  line-height:1.5;
-  padding: 24px;
+h1 {
+  text-align: center;
+  color: #333;
 }
 
-/* Page layout */
-header{max-width:900px;margin:0 auto 18px;padding:8px 12px}
-h1{
-  margin:0;
-  font-size:clamp(26px,4vw,36px);
-  color: var(--accent);
-  letter-spacing:-0.01em;
+div {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin: 12px 0;
 }
 
-/* Main content container */
-main{
-  max-width:900px;
-  margin: 0 auto;
-  display: grid;
-  gap:14px;
-  padding: 8px 12px;
+h2 {
+  margin-top: 0;
+  color: #444;
 }
 
-/* Sections styled like cards */
-section{
-  background: var(--card);
-  border: 1px solid rgba(27,31,35,0.06);
-  border-radius: var(--radius);
-  padding: 14px 16px;
-  box-shadow: 0 6px 12px rgba(20,30,40,0.03);
-}
-
-/* Headings inside sections */
-section h2{
-  margin:0 0 8px 0;
-  font-size:1.05rem;
-  color:#112528;
-}
-
-/* Paragraphs */
-section p{
-  margin:0;
-  color: var(--muted);
-  white-space: pre-wrap; /* keep your line breaks if any */
-}
-
-/* Footer */
-footer{max-width:900px;margin:18px auto 0;padding:8px 12px;text-align:center;color:var(--muted);font-size:0.9rem}
-
-/* Small responsive touch */
-@media (min-width:900px){
-  main{gap:18px}
+p {
+  margin: 6px 0 0;
 }
