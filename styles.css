@@ -1,27 +1,49 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  color: #222;
-  margin: 20px;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+    margin: 20px;
 }
 
 h1 {
-  text-align: center;
-  color: #333;
+    text-align: center;
+    color: #333;
 }
 
-div {
-  background: #fff;
-  border: 1px solid #ccc;
-  padding: 12px;
-  margin: 12px 0;
+/*
+    NEW: Applying the old 'div' styles to specific section classes
+    to match the HTML structure and keep general styling clean.
+*/
+.about, .skills, .projects, .contact, .project {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin: 12px 0;
 }
 
 h2 {
-  margin-top: 0;
-  color: #444;
+    margin-top: 0;
+    color: #444;
 }
 
 p {
-  margin: 6px 0 0;
+    margin: 6px 0 0;
+}
+
+/* Optional: Add minimal styling for the project assignment component
+*/
+.project {
+    border-left: 5px solid #007bff; /* Highlight the individual project */
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+.project h3 {
+    color: #007bff;
+    margin-bottom: 5px;
 }
