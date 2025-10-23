@@ -10,10 +10,7 @@ h1 {
     color: #333;
 }
 
-/*
-    NEW: Applying the old 'div' styles to specific section classes
-    to match the HTML structure and keep general styling clean.
-*/
+
 .about, .skills, .projects, .contact, .project {
     background: #fff;
     border: 1px solid #ccc;
@@ -30,10 +27,8 @@ p {
     margin: 6px 0 0;
 }
 
-/* Optional: Add minimal styling for the project assignment component
-*/
 .project {
-    border-left: 5px solid #007bff; /* Highlight the individual project */
+    border-left: 5px solid #007bff; 
 }
 
 .project img {
