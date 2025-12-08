@@ -1,26 +1,27 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f4f4f4;
-    color: #222;
+    background: #f6f7f9; /* slightly softer gray */
+    color: #1e1e1e;
     margin: 20px;
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #2c2c2c;
 }
 
-
 .about, .skills, .projects, .contact, .project {
-    background: #fff;
-    border: 1px solid #ccc;
+    background: #ffffff;
+    border: 1px solid #d3d3d3; /* softer border */
     padding: 12px;
     margin: 12px 0;
+    border-radius: 6px; /* subtle rounding to modernize */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06); /* light elevation */
 }
 
 h2 {
     margin-top: 0;
-    color: #444;
+    color: #3a3a3a;
 }
 
 p {
@@ -28,7 +29,7 @@ p {
 }
 
 .project {
-    border-left: 5px solid #007bff; 
+    border-left: 5px solid #005fcc; /* refined blue */
 }
 
 .project img {
@@ -36,9 +37,19 @@ p {
     height: auto;
     display: block;
     margin: 10px 0;
+    border-radius: 4px; /* small polish */
 }
 
 .project h3 {
-    color: #007bff;
+    color: #005fcc;
     margin-bottom: 5px;
+}
+
+a {
+    color: #005fcc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
